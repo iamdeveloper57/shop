@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Inter, sans-serif;
+box-sizing: border-box;}
+/* navbar goes here */
+.navbar{
+height: 50px;
+width: 100%;
+background-color: #f0f0f0;
+position: fixed;
+bottom: 0;}
+.ul{
+display: flex;
+justify-content: space-around;
+gap: 10px;
+padding: 10px;
+}
+li{
+list-style: none;
+font-size: 20px;}
+
+/* top nav goes here */
+.top-nav{
+display: flex;
+width: 100%;
+height: 60px;
+background-color: #fff;
+padding: 10px;
+align-items: center;
+border-bottom: 0.11rem solid #d5dbdb;
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+overflow: hidden;
+object-fit: cover;
+display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.nav-logo img{
+width: 100%; margin-right: 10px;
+}
+.nav-search{
+display: flex; align-items: center; justify-content: space-around;
+width: 80%;
+height: 30px;
+padding: 5px 6px;
+border-radius: 6px; background-color: #eee;}
+.nav-search input{
+width: 90%;
+outline: none;
+border: none;
+font-size: 15px; background-color: transparent;}
+
+/* posts goes here */
+.post{
+ height: 100vh;
+width: 100vw;
+padding: 11px;
+overflow-x: hidden;
+overflow-y: scroll;
+scroll-behavior: smooth;}
+
+/* post-1 goes here */
+.card{
+display: flex;
+height: 160px;
+width: 100%;
+align-items: flex-start;
+margin-top: 20px;}
+.card-img{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 115px;
+width: 125px;
+border-radius: 7px;
+overflow: hidden;
+object-fit: cover;
+background-color: #221b1b;}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+/* card product info */
+.card-info{
+padding: 5px;
+padding-left: 10px;}
+.pro-name{
+display: flex;
+font-size: 17px;}
+.pro-name span{
+margin-left: 100px;
+}
+.pro-des{
+margin-top: 7px;
+font-size: 13px;
+}
+.pro-price{margin-top: 15px;}
+.pro-loc-time{font-size: 12px;margin-top: 8px;display: flex;justify-content: space-between;}
+.pro-loc{text-align: left;}
+.pro-time{font-size: 12px; text-align: right;}
+
+/* .card-body{
+    z-index: 1;
+    animation: card 0.4s linear;
+    display: none;
+}
+@keyframes card {
+    0%{opacity: 0;}
+    50%{opacity: 1; scale: 0.15;}
+    100%{scale: 1;}
+}
+
+.card{
+    z-index: -1;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
